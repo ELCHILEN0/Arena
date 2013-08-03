@@ -1,0 +1,10 @@
+name: Arena
+version: ${project.version}
+description: ${project.description}
+website: ${project.url}
+authors: [ELCHILEN0]
+main: com.TeamNovus.Arenas.Arenas
+commands:
+  arena:
+    aliases: [arenas]
+soft-depend: [ProtocolLib, TagHelper]
